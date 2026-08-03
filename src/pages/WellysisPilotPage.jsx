@@ -248,7 +248,10 @@ function WellysisPilotPage() {
 
       <section className="pilot-image-section">
         <img
-          src="/images/wellysis-platform-overview.jpg"
+          src={`${import.meta.env.BASE_URL}/images/wellysis-platform-overview.jpg`.replace(
+            "//",
+            "/",
+          )}
           alt="Wellysis ECG data platform overview and AI service process"
         />
       </section>

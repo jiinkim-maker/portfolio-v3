@@ -232,7 +232,10 @@ function DisasterDetectionPage() {
 
       <section className="disaster-image-section">
         <img
-          src="/images/disaster-detection-pipeline.jpg"
+          src={`${import.meta.env.BASE_URL}/images/disaster-detection-pipeline.jpg`.replace(
+            "//",
+            "/",
+          )}
           alt="RGB/FIR multispectral YOLO ensemble detection pipeline"
         />
       </section>

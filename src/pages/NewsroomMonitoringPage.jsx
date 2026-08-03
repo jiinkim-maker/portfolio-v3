@@ -236,7 +236,10 @@ function NewsroomMonitoringPage() {
 
       <section className="monitoring-image-section">
         <img
-          src="/images/platform_intro.png"
+          src={`${import.meta.env.BASE_URL}/images/platform_intro.png`.replace(
+            "//",
+            "/",
+          )}
           alt="Newsroom Monitoring Platform"
         />
       </section>

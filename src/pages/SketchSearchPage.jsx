@@ -237,7 +237,10 @@ function SketchSearchPage() {
 
       <section className="sketch-image-section">
         <img
-          src="/images/sketch-search-detection-demo.jpg"
+          src={`${import.meta.env.BASE_URL}/images/sketch-search-detection-demo.jpg`.replace(
+            "//",
+            "/",
+          )}
           alt="Object detection comparison between a sketch illustration and a real photo"
         />
       </section>

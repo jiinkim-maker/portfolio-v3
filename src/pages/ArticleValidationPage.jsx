@@ -225,14 +225,7 @@ function ArticleValidationPage() {
         </div>
       </section>
 
-      {/* IMAGE */}
-
-      <section className="validation-image-section">
-        <img
-          src="/images/article-validation-dashboard.jpg"
-          alt="Article Validation Tool"
-        />
-      </section>
+      {/* IMAGE (removed until a real screenshot is available) */}
 
       {/* SOLUTION */}
 

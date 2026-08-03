@@ -237,7 +237,10 @@ function KFoodClassifierPage() {
 
       <section className="kfood-image-section">
         <img
-          src="/images/kfood-eda-classes.jpg"
+          src={`${import.meta.env.BASE_URL}/images/kfood-eda-classes.jpg`.replace(
+            "//",
+            "/",
+          )}
           alt="K-Food dataset class distribution and sample images"
         />
       </section>
@@ -258,7 +261,10 @@ function KFoodClassifierPage() {
 
       <section className="kfood-image-section">
         <img
-          src="/images/kfood-resnet-pipeline.jpg"
+          src={`${import.meta.env.BASE_URL}/images/kfood-resnet-pipeline.jpg`.replace(
+            "//",
+            "/",
+          )}
           alt="ResNet training pipeline and ensemble performance comparison"
         />
       </section>

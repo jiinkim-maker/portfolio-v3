@@ -248,7 +248,10 @@ function OilConditionPage() {
 
       <section className="oil-image-section">
         <img
-          src="/images/oil-condition-algorithm-service.jpg"
+          src={`${import.meta.env.BASE_URL}/images/oil-condition-algorithm-service.jpg`.replace(
+            "//",
+            "/",
+          )}
           alt="Random Forest algorithm pipeline and AI service planning diagram"
         />
       </section>
